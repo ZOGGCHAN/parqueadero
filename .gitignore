@@ -1,0 +1,41 @@
+# Node modules
+/node_modules/
+
+# Archivos de log
+*.log
+
+# Archivos de dependencias bloqueadas
+package-lock.json
+yarn.lock
+
+# Archivos de entorno (no subas credenciales ni configuraciones locales)
+.env
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+
+# Archivos de respaldo y temporales
+*.bak
+*.swp
+*.swo
+
+# Archivos de la base de datos (si no se incluye en el proyecto)
+*.db
+
+# Archivos generados por la instalación de paquetes
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Directorios y archivos de caché
+/.cache/
+dist/
+build/
+
+# Archivos de swagger generado automáticamente
+swagger.json
+
+# Archivos del sistema operativo
+.DS_Store   # Para MacOS
+Thumbs.db   # Para Windows
